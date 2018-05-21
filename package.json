@@ -1,0 +1,48 @@
+{
+  "name": "starter-app",
+  "version": "0.0.1",
+  "description": "Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "push-all": "git push  origin master && git push heroku master "
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "compression": "^1.7.1",
+    "express": "^4.13.3",
+    "gulp-gzip": "^1.4.0",
+    "ngreact": "^0.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "",
+  "devDependencies": {
+    "@types/angular": "^1.6.7",
+    "@types/jquery": "^2.0.40",
+    "@uirouter/angularjs": "^1.0.18",
+    "angular": "^1.6.0",
+    "autoprefixer": "^7.2.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jquery": "1.9.1",
+    "nodemon": "^1.12.5",
+    "sass-lint": "^1.12.1"
+  }
+}
